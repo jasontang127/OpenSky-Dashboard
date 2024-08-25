@@ -12,6 +12,7 @@ Setup
 * Run the app.py Python file
 Navigating the Dashboard
 * Input date range in Epoch time, and hit submit to filter the data on date
+  
 ![image](https://github.com/user-attachments/assets/bb0e99cb-fb81-4965-a05f-b50a7cf68925)
 
 # Technologies Used
