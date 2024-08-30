@@ -4,6 +4,15 @@ A Python Dash dashboard for analyzing flight data
 * Displays flight data analytics through multiple visualizations
 * Takes in user input to filter the data based on datetime
 * Dynamically updates the visualizations based on the input
+  * Line chart: displays the number of flights over time for the given time frame
+
+  ![image](https://github.com/user-attachments/assets/7c55ed16-284f-456d-b331-9e22de762313)
+
+
+  * Pie chart: displays flights' countries of origin for the given time frame
+
+  ![image](https://github.com/user-attachments/assets/8c7c6687-c94e-4746-8fbc-1b16704b62f2)
+
 # Usage
 Setup
 * Register for an OpenSky account
@@ -21,4 +30,9 @@ Navigating the Dashboard
   * Pandas
   * Dash
   * OpenSky-API
-  
+
+# Further Enhancements
+* Clean up date range input (calendar selection rather than inputting epoch time)
+* Add more charts (heatmap, histogram)
+* Incorporate larger dataset/rolling data functionality
+* Deploy to cloud
